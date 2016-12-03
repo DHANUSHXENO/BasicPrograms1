@@ -4,10 +4,10 @@ main()
     int a,fact=1;
     printf("Enter a number ::");
     scanf("%d",&a);
-    while(a>0)
+    do
     {
         fact=fact*a;
         a--;
-    }
+    }while(a>0);
     printf("Factorial is ::%d",fact);
 }
