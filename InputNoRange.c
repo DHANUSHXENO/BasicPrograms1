@@ -9,7 +9,7 @@ int main()
         printf("Enter a num\n");
         scanf("%d",&a);
         if(a>range)
-            printf("Enter number in range\n");
+            printf("Error::\nEnter number in range\n");
     }while(a>range);
     printf("The number in range is %d",a);
 }
